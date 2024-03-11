@@ -6,7 +6,7 @@
 
 .hero-section{
     min-height: calc(100vh);
-    background-image: url("/img/bgimg.png");
+    background-image: url("../img/bgimg.png");
     max-width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
