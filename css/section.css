@@ -75,7 +75,7 @@
 
   /* events list */
 
-  .container {
+  .container, .container2 {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -83,7 +83,8 @@
 
   .card{
     width: 100%;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
+    padding-bottom: 24px;
   }
 
   /* .my-image{
@@ -99,7 +100,17 @@
     margin-bottom: 0;
 
 }
-
+.separation{
+  /* width: 95vw; */
+  height:3px;
+  background-color:rgb(202, 190, 190);
+}
+.happen{
+  padding: 16px 0;
+}
+.load{
+  margin:auto;
+}
   
 
   @media screen and (min-width: 768px){

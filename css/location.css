@@ -1,0 +1,66 @@
+.section2 {
+  background-color: #101010;
+  padding: 1rem 2rem;
+}
+.info h3 {
+  color: white;
+  margin-bottom: 12px;
+}
+.loc p {
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.location {
+  margin-top: 2.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 90vw;
+}
+.loc-img {
+  /* padding:10px; */
+  width: 27vw;
+  border-radius: 15px;
+  transition: var(--transition);
+}
+.loc-img:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 20px #c12a58;
+  transform: translateY(-10px);
+}
+.discover-btn {
+  padding: 13px;
+}
+@media screen and (min-width: 1170px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    width: 45vw;
+  }
+  .location {
+    width: 45vw;
+  }
+  .loc-img {
+    width: 13vw;
+  }
+  .discover-btn {
+    margin-top: 1.3rem;
+    width: 138px;
+  }
+  .info h3 {
+    font-weight: 3rem;
+  }
+  .btn {
+    font-size: small;
+  }
+}
+
+/* section2 ended */
+@media screen and (min-width:1170px){ 
+    width:100%;
+    
+}
